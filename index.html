@@ -2,39 +2,36 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title Jesse James Ordona></title>
+        <title>Jesse James Ordona</title>
+        <link rel="stylesheet" href="styles/styles.css" />
+        <style>
+            /* I am adding all of the CSS for Phase 2 in one CSS file with Phase 3. */
+        </style>
     </head>
 
     <body>
-        <div id="introduction">
-            <img src="mtt_jessejames.jpg" alt="Jesse James' Headshot" width="250" height="313"></img>
-            <h1>Jesse James Ordona</h1>
-            <h2>Computer Science w/ Business Applications Undergraduate @ UCR</h2>
+        <div id="nav-container">
+            <ul id="navbar">
+                <li class="navitem"><a href="#">About</a></li>
+                <li class="navitem"><a href="#">Education</a></li>
+                <li class="navitem"><a href="#">Experience</a></li>
+                <li class="navitem"><a href="#">Projects</a></li>
+                <li class="navitem"><a href="#">Knowledge</a></li>
+            </ul>
         </div>
-        <div id="about">
-            <h3>About</h3>
-            <p>
-                Hi, I'm Jesse James– a fourth year Computer Science with Business Applications 
-                undergraduate student at the University of California, Riverside. I am a self-starter
-                striving to work as a web developer.
-            </p>
-        </div>
-        <div id="work-experience">
-            <h3>Work Experience</h3>
-            <div id="exp-table">
-                <table>
-                        <tr>
-                            <th>UCR School of Public Policy</th>
-                            <th>Student Assistant</th>
-                            <th>April 2022 - Present</th>
-                        </tr>
-                        <tr>
-                            <td colspan="3">I performed weekly updates to the UCR Water Dialogue website through Drupal CMS. These updates consist of adding Youtube videos to the Water Seminar series, creating new pages, and completing requested edits.
-                                I created 3 new pages regarding research and spotlighting key individuals for the UCR Water Dialogue website using Drupal's Layout feature.
-                                I improved website performance speed through scaling images appropriately.
-                            </td>
-                        </tr>
-                </table>
+        <div id="block-1">
+            <div id="headshot">
+                <img src="images/mtt_jessejames.jpg" alt="Jesse James' Headshot" width="250" height="313" />
+            </div>
+            <div id="introduction">
+                <h1>Jesse James Ordona</h1>
+                <h2>Computer Science w/ Business Applications Undergraduate @ UCR</h2>
+                <h3>About</h3>
+                <p>
+                    Hi, I'm Jesse James– a fourth year Computer Science with Business Applications 
+                    undergraduate student at the University of California, Riverside. I am a self-starter
+                    striving to work as a web developer.
+                </p>
             </div>
         </div>
         <div id="education">
@@ -54,6 +51,43 @@
                         </tr>
                     </tbody>
                 </table>
+            </div>
+        </div>
+        <div id="work-experience">
+            <h3>Work Experience</h3>
+            <div id="exp-table">
+                <table>
+                        <tr>
+                            <th>UCR School of Public Policy</th>
+                            <th>Student Assistant</th>
+                            <th>April 2022 - Present</th>
+                        </tr>
+                        <tr>
+                            <td colspan="3">I performed weekly updates to the UCR Water Dialogue website through Drupal CMS. These updates consist of adding Youtube videos to the Water Seminar series, creating new pages, and completing requested edits.
+                                I created 3 new pages regarding research and spotlighting key individuals for the UCR Water Dialogue website using Drupal's Layout feature.
+                                I improved website performance speed through scaling images appropriately.
+                            </td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+        <div id="projects">
+            <h3>Projects</h3>
+            <div id="projects-ul">
+                <ul>
+                    <li>SpotifyU: SpotifyU is a website that aims to analyze a user’s favorite tracks and artists. 
+                        Use a Spotify Dataset from Kaggle to analyze the user’s inputted songs or artists
+                        Analyze track traits that appeal to the user
+                        Recommend songs
+                        Find similarities between their favorite artists 
+                    </li>
+                    <li>bookUP: Implemented the Google Books RESTful API using Javascript Fetch API which 
+                        enabled users to search for a book from the Google Books database.
+                        Incorporated CSS media queries which allowed for responsive web design based on the 
+                        user’s window size.
+                        Organized the layout of the web app using CSS Flex.
+                    </li>
+                </ul>
             </div>
         </div>
         <div id="coursework">
@@ -79,25 +113,6 @@
                     <li>Node.js</li>
                     <li>SQL</li>
                     <li>Drupal</li>
-                </ul>
-            </div>
-        </div>
-        <div id="projects">
-            <h3>Projects</h3>
-            <div id="projects-ul">
-                <ul>
-                    <li>SpotifyU: SpotifyU is a website that aims to analyze a user’s favorite tracks and artists. 
-                        Use a Spotify Dataset from Kaggle to analyze the user’s inputted songs or artists
-                        Analyze track traits that appeal to the user
-                        Recommend songs
-                        Find similarities between their favorite artists 
-                    </li>
-                    <li>bookUP: Implemented the Google Books RESTful API using Javascript Fetch API which 
-                        enabled users to search for a book from the Google Books database.
-                        Incorporated CSS media queries which allowed for responsive web design based on the 
-                        user’s window size.
-                        Organized the layout of the web app using CSS Flex.
-                    </li>
                 </ul>
             </div>
         </div>
