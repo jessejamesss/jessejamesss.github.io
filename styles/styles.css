@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Noto Sans KR', sans-serif;
-    /* background-color: #E2DED0; */
     background-color: #F2F1F0;
     margin: 0;
     padding: 0;
@@ -23,12 +22,6 @@ body {
     padding: 30px 30px;
 }
 
-/* .navitem {
-    padding: 10px 20px 10px 0px;
-    font-size: 18px;
-    /* color:whitesmoke
-}*/
-
 a {
     padding-right: 15px;
 }
@@ -40,7 +33,6 @@ a:link {
 a:visited{
     color: white;
     text-decoration: none;
-    /* color: white; */
 }
 
 a:hover {
@@ -89,14 +81,10 @@ a:active {
 #edu-table {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     margin: 0 auto;
-    /* border-collapse: separate;
-    border-spacing: 0 25px; */
 }
 
 .edu-item {
-    /* background-color: #F2F1F0; */
     background-color: white;
     margin: 10px;
     border-radius: 10px;
@@ -130,7 +118,6 @@ a:active {
 .exp-item {
     margin: 0 20px;
     padding: 20px;
-    /* background-color: #F2F1F0; */
     background-color: white;
     border-radius: 10px;
 }
@@ -153,18 +140,14 @@ a:active {
 .p-item {
     display: flex;
     align-items: center;
-    /* background-color: #F2F1F0; */
     background-color: white;
-
     margin: 15px;
     border-radius: 10px;
 }
 
 .p-img {
     margin-right: 20px;
-    /* background-color: #F2F1F0; */
     background-color: white;
-
     border-radius: 10px;
 }
 
@@ -195,7 +178,6 @@ a:active {
  }
 
 #skills-ul {
-    /* background-color: #F2F1F0; */
     background-color: white;
     padding: 0 10px 6px 10px;
     border-radius: 10px;
@@ -207,7 +189,6 @@ a:active {
  }
 
  #cw-ul {
-    /* background-color: #F2F1F0; */
     background-color: white;
     padding: 10px 15px 10px 10px;
     border-radius: 10px;
